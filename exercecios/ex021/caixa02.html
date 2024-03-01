@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #D6D58E;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header{
+            background-color:#005C53;
+            color: #DBF227;
+            padding: 10px;
+            margin: 10px;
+            height: 100px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: dimgrey;
+            padding: 3px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.577);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+        }  
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #005C53;
+            padding: 10px;
+            margin: 10px;
+            height: 300px;
+        }
+
+        section > h2 {
+            color: #DBF227;
+        }
+
+        section > article {
+            background-color: white;
+            padding: 5px;
+            margin-bottom: 124px;
+        }
+
+        aside {
+            background-color:#042940;
+            color:white;
+        }
+
+        footer{
+           background-color: black;
+           color: white;
+           text-align: center;
+           padding: 3px;
+        }
+
+        footer > p {
+            margin: 0px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+
+        </section>
+        <section id="assunto">
+            <h2>o futuro do brasil</h2>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quod molestiae fugit dolores iusto harum hic earum reiciendis deleniti, nobis aut, maiores officiis quia eum, quibusdam praesentium possimus cumque ullam?</p>
+            </article>
+            
+            <aside>
+                feito por José Caralho
+            </aside>
+            
+            
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Entony katy</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamincas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>altere a imagem mudando o tamanho da dimensão de sua tela.
+    </p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+
+    <p> a imagem principal, que ficara nas telas maiores. Logo emfaça isso usando a tag &lt;picture&gt;, dentro dela, coloque seguida coloque acima da imagem principal o "source midia type", e irforme os dados da imagem que vc deseja que apareça qunado a tela tiver o tamanho abaixo do qual vc selecionar. </p>
+
+    <h1>reproduzindo audio</h1>
+
+    <audio preload="metadata" controls>
+       <source src="audios/July - John Patitucci.mp3" type="audio/mpeg">
+       <source src="audios/July - John Patitucci.wav" type="audio/wav">
+       <source src="audios/July - John Patitucci.ogg" type="audio/ogg">
+       <p>seu navegador não suporta audio.</p>
+    </audio>
+</body>
+</html>
