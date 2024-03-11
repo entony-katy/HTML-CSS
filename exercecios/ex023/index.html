@@ -11,21 +11,18 @@
 
         table {
             border-collapse: collapse;
-        }
-
-        tr.linha {
-            background-color: blue;
+            height: 350px;
+            width: 350px;
         }
 
         td {
             border: 1px solid black;
             padding: 10px;
-            width: 150px;
+
+            text-align: left; /*alinhamento horizontal*/
+            vertical-align: top; /*alinhamento vertical*/
         }
 
-        td.destaque {
-            background-color: yellow;
-        }
     </style>
 
 </head>
@@ -33,7 +30,7 @@
     <h1>trabalhando com tabelas</h1>
 
     <table> 
-        <tr class="linha">
+        <tr>
             <td>A1</td>
             <td>B1</td>
             <TD>C1</TD>
@@ -47,7 +44,7 @@
 
         <tr>
             <td>A3</td>
-            <TD class="destaque">B3</TD>
+            <TD>B3</TD>
             <TD>C3</TD>
         </tr>
     </table>
