@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+            margin: auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.663);
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>trabalhando com tabelas grandes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th>população</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td class="num">44 441 228</td>
+            </tr>
+            <tr>
+                <td>tocatins</td>
+                <td class="num">1 1511 460</td>
+            </tr>
+            <tr>
+                <td>Aracaju</td>
+                <td class="num"> 2 210 004</td>
+            </tr>
+            <tr>
+                <td>Porta alegre</td>
+                <td class="num">11 882 965</td>
+            </tr>
+            <tr>
+                <td>belem</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Vitoria</td>
+                <td class="num">3 833 712</td>
+            </tr> 
+            <tr>
+                <td>Fortaleza</td>
+                <td class="num">8 794 957</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+           <tr>
+                <th>população total</th>
+                <td class="num"><strong>000000000</strong></td>
+           </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
