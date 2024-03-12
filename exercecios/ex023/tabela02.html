@@ -36,6 +36,19 @@
         td.num {
             text-align: right;
         }
+
+        /*efeito zebrado em tabelas*/
+
+        tbody > tr:nth-child(2n) { /*de duas em duas linhas*/
+            background-color: aquamarine;
+        }
+        
+        tbody > tr:nth-child(odd) { /*nas linhas impar*/
+            background-color: rgb(144, 117, 117);
+            color: white;
+        }
+
+
     </style>
 
 </head>
