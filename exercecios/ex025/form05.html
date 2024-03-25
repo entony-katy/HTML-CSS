@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>formularios</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="esifut" checked> <label for="esifut">Futebol</label>  <br>
+            <input type="checkbox" name="esbas" id="esibas"> <label for="esibas">basquete</label> <br>
+            <input type="checkbox" name="esnat" id="esinat"> <label for="esinat">natação</label> <br>
+            <input type="checkbox" name="esvol" id="esivol"> <label for="esivol">volei</label> <br>
+        
+        </fieldset>
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="imas" checked value="M"> <label for="imas">masculino</label> <br>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">feminino</label>
+        </fieldset>
+ 
+        <p> <input type="submit" value="enviar">
+                <input type="reset" value="limpar"></p>
+    </form>
+
+    <p>precisamos colocar o mesmo name no input do type radio, pois se não fizer isso, vc so ira conseguir selecionar, mas ira conseguir desmarcar depois. Temos tambem que colocar o value em cada um para sinalizar ao envio que o que estara sendo enviado é masculino ou feminino. Como vemos a cima, da para deixar selecionado, para fazer isso, temos que dar a propriedade "checked" emm algum deles. </p>
+</body>
+</html>
